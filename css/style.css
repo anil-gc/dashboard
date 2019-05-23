@@ -1,0 +1,89 @@
+
+.sidenav{
+	background-color: #ffffff;
+	height: 720px;
+	overflow-x: hidden;
+}
+
+.sidenav a{
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	color: black;
+}
+
+.sidenav a:hover:not(.active1){
+	background-color: #ccc;
+
+}
+
+.sidenav h2{
+	text-align: right;
+	cursor: pointer;
+	padding-right: 10px;
+}
+
+.active1{
+	background-color: #4CAF50;
+	color: aliceblue !important;
+}
+
+.navcontainer
+{
+	margin-top: 20px;
+}
+.navbar{
+	background-color: #ebeff2 !important;
+}
+.rightnav{
+	width: 220px;
+}
+
+.x1{
+	padding-left: 0;
+	
+}
+.x2 {
+	padding-right: 0;
+}
+
+#profile{
+	padding-top: 50px;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	left: -50px;
+	background-color: #ebeff2;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 5px 5px;
+	z-index: 1;
+}
+.dropdown1:hover .dropdown-content {
+  display: block;
+}
+
+
+.adminx li  {
+	list-style-type: none;
+}
+
+.adminx a{
+	opacity: 0.8;
+}
+
+.adminx li a:hover{
+	background-color: #34b8df !important;
+}

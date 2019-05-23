@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Hello, world!</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="row">
+	
+<div class="col-md-2 x2">
+	<div class="sidenav leftnav">
+	<div id="profile">
+		<img src="img/33-333214_double-arrow-png-arrow-right-icon-png-clipart.png" alt="logo" class="img-fluid mx-auto d-block" style="width: 120px;">
+		<img src="img/user-1.jpg" alt="user" class="img-fluid mx-auto d-block rounded-circle img-thumbnail" style="width: 80px;margin-top: 40px">
+		<div class="text-center">
+		<div class="dropdown1">
+			<span style="text-transform: capitalize;font-weight: 500;">Nowak helme</span><br>
+			<span style="text-transform: capitalize;font-weight: 400;color: #aaafb3;">admin head</span>
+			<div class="dropdown-content adminx text-left">
+					<li><a href="#"><i class="fas fa-user-alt"></i> my account</a></li>
+					<li><a href="#"><i class="fas fa-cog"></i> settings</a></li>
+					<li><a href="#"><i class="fas fa-cog"></i> loack screen</a></li>
+					<li><a href="#"><i class="fas fa-cog"></i> logout</a></li>
+			</div>
+		</div>
+		</div>
+	</div>
+		
+		<div class="navcontainer">
+			<a href="#" class="active1">home</a>
+			<a href="#">about</a>
+			<a href="#">contact</a>
+			<a href="#">blog</a>
+			<a href="#">login</a>
+		</div>
+	</div>
+</div>
+				
+<div class="col-md-10 x1">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#"><span style="font-weight: 500">Dashboard</span></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+			<ul class="navbar-nav ml-auto">
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			</form>
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-cog"></i></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+</div>
+
+<div class="sidenav rightnav" id="ok">
+		<h2 onclick="closeNav()">x</h2>
+		<div class="navcontainer">
+			<a href="#" class="active1">home</a>
+			<a href="#">about</a>
+			<a href="#">contact</a>
+			<a href="#">blog</a>
+			<a href="#">login</a>
+		</div>
+	</div>
+
+
+
+
+	<script>
+		function closeNav() {
+			document.getElementById("ok").style.width = "0";
+		}
+
+		function openNav() {
+			document.getElementById("ok").style.width = "200px";
+			document.getElementById("ok").style.display = "block";
+
+		}
+	</script>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
