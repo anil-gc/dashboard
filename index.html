@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Hello, world!</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="row">
+<!--vertical left side nav bar-->
+<div class="col-md-2 x2">
+	<div class="sidenav leftnav">
+	<div id="profile">
+		<img src="img/33-333214_double-arrow-png-arrow-right-icon-png-clipart.png" alt="logo" class="img-fluid mx-auto d-block" style="width: 100px;">
+		<img src="img/user-1.jpg" alt="user" class="img-fluid mx-auto d-block rounded-circle img-thumbnail" style="width: 80px;margin-top: 40px">
+		<div class="text-center">
+		<div class="dropdown1">
+			<span style="text-transform: capitalize;font-weight: 500;" class="dropbtn" onclick="myFunction()">Nowak helme</span><br>
+			<span style="text-transform: capitalize;font-weight: 400;color: #aaafb3;">admin head</span>
+				<div class="text-center">
+					<i class="fas fa-cog c"></i>&nbsp;&nbsp;&nbsp;<i class="fas fa-power-off c active1"></i>
+				</div>
+			<div class="dropdown-content adminx text-left" id="dp1">
+					<li><a href="#"><i class="fas fa-user-alt"></i> my account</a></li>
+					<li><a href="#"><i class="fas fa-cog"></i> settings</a></li>
+					<li><a href="#"><i class="fas fa-cog"></i> loack screen</a></li>
+					<li><a href="#"><i class="fas fa-cog"></i> logout</a></li>
+			</div>
+		</div>
+		</div>
+	</div>
+		
+		<div class="navcontainer">
+		
+			<a href="#" class="c" style="text-transform: uppercase;font-weight: 700;font-size: 12px;letter-spacing: 1.5px;">navigation</a>
+			<a href="#" class="active1"><i class="fas fa-th"></i>&nbsp;&nbsp;&nbsp;dashboard</a>
+			<a href="#"><i class="fab fa-staylinked"></i>&nbsp;&nbsp;&nbsp;typography</a>
+			<a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="arrowchanger()"><i class="fas fa-align-left"></i>&nbsp;&nbsp;&nbsp;user interface&nbsp;&nbsp;&nbsp;<i class="fas fa-angle-down"></i></a>
+					<div class="collapse" id="collapseExample">
+					<a href="#">buttons</a>
+					<a href="#">cards</a>
+					<a href="#">draggable cards</a>
+					<a href="#">checkbox-radios</a>
+					<a href="#">material design icons</a>
+					<a href="">font awesome</a>
+					<a href="">dripicons</a>
+					<a href="">themify icons</a>
+					<a href="">modals</a>
+					<a href="">notification</a>
+					<a href="">range slider</a>
+					<a href="">components</a>
+					<a href="">sweet alert</a>
+					<a href="">tree view</a>
+					<a href="">widgets</a>
+					</div>
+			<a href="#"><i class="fas fa-hashtag"></i>&nbsp;&nbsp;&nbsp;forms</a>
+			<a href="#"><i class="fas fa-map-signs"></i>&nbsp;&nbsp;&nbsp;tables</a>
+		<a href="#"><i class="fab fa-linode"></i>&nbsp;&nbsp;&nbsp;charts</a>
+			<a href="#"><i class="far fa-calendar-alt"></i>&nbsp;&nbsp;&nbsp;calender</a>
+			<a href="#"><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;mail</a>
+			<a href="#"><i class="fab fa-flipboard"></i>&nbsp;&nbsp;&nbsp;layouts</a>
+			<a href="#"><i class="fab fa-elementor"></i>&nbsp;&nbsp;&nbsp;pages</a>
+			<a href="#"><i class="fas fa-dice-d6"></i>&nbsp;&nbsp;&nbsp;extra pages</a>
+			<a href="#" id="last"><i class="fas fa-share-alt-square"></i>&nbsp;&nbsp;&nbsp;multi level</a>
+			
+		</div>
+	</div>
+</div>
+<!--vertical left side nav end-->
+
+<!--horizontal navbar start-->		
+<div class="col-md-10 col-sm-12 x1">
+	<nav class="navbar navbar-expand-lg navbar-light fixing">
+		<a class="navbar-brand" href="#"><span style="font-weight: 500">Dashboard</span></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+			<ul class="navbar-nav ml-auto">
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2 srch" type="search" placeholder="Search" aria-label="Search">
+				<i class="fas fa-search si c"></i>
+			</form>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="far fa-bell fa-lg"></i><span id="noti">9</span><span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown">
+					<img src="img/user-1.jpg" alt="img" class="rounded-circle img-fluid" style="width: 40px;"><a class="nav-link dropdown-toggle dp" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Nowak
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-cog fa-lg"></i></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+<!--horizontal navbar end-->
+<div class="row">
+	
+</div>
+<div class="col-md-10 x3">
+	<div class="col-md-4">
+	<div id="chartContainer" style="height: 100%; width: 100%;"></div>
+	</div>
+	<div class="col-md-4">
+		
+	</div>
+	<div class="col-md-4"></div>
+</div>
+</div>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+	<script src="js/js.js"></script>
+</body>
+
+</html>

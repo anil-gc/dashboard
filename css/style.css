@@ -2,20 +2,17 @@
 .sidenav{
 	background-color: #ffffff;
 	height: 720px;
-	overflow-x: hidden;
 }
 
 .sidenav a{
 	text-decoration: none;
 	padding: 15px;
 	display: block;
-	color: black;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: #767d83;
 }
 
-.sidenav a:hover:not(.active1){
-	background-color: #ccc;
-
-}
 
 .sidenav h2{
 	text-align: right;
@@ -23,32 +20,26 @@
 	padding-right: 10px;
 }
 
-.active1{
-	background-color: #4CAF50;
-	color: aliceblue !important;
-}
-
 .navcontainer
 {
 	margin-top: 20px;
+	padding-left: 10px;
 }
 .navbar{
 	background-color: #ebeff2 !important;
 }
-.rightnav{
-	width: 220px;
-}
-
 .x1{
-	padding-left: 0;
+	margin-left: 255px;
 	
 }
 .x2 {
-	padding-right: 0;
+	position: fixed;
+	left: 2px;
+	overflow-y: scroll;
 }
 
-#profile{
-	padding-top: 50px;
+#profile {
+	margin-top: 30px;
 }
 
 body{
@@ -65,14 +56,15 @@ body{
 	display: none;
 	position: absolute;
 	left: -50px;
+	top: 30px;
 	background-color: #ebeff2;
 	min-width: 200px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	padding: 5px 5px;
 	z-index: 1;
 }
-.dropdown1:hover .dropdown-content {
-  display: block;
+.dropbtn {
+	cursor: pointer;
 }
 
 
@@ -82,8 +74,108 @@ body{
 
 .adminx a{
 	opacity: 0.8;
+	padding: 8px;
+	margin: 10px;
 }
 
 .adminx li a:hover{
 	background-color: #34b8df !important;
+	color: aliceblue;
+}
+
+.show {display: block;}
+
+.c{
+	color: #aaafb3 !important;
+}
+/* width */
+.x2::-webkit-scrollbar {
+	width: 10px;	
+}
+
+/* Track */
+.x2::-webkit-scrollbar-track {
+	 border-radius: 10px;
+}
+
+/* Handle */
+.x2::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #ebeff2;
+	display: none;
+}
+
+/* Handle on hover */
+.x2::-webkit-scrollbar-thumb:hover {
+	background: #aaafb1;
+	display: block;
+}
+
+#last {
+	padding-bottom: 30px;
+}
+
+.active1{
+	color: #34b8df !important;
+}
+
+.srch{
+	background-color: #ebeff2;
+	border-radius: 30px;
+	padding: 20px 13px;
+}
+
+.x1 ul{
+	margin-top: 10px;
+}
+
+.x1 li {
+	margin-right: 30px;
+}
+
+.srch:focus {
+	background-color: #ebeff2;
+}
+
+.si{
+	position: relative;
+	right: 45px;
+}
+
+.dp{
+	display: inline !important;
+	color: #aaafb1;
+	font-weight: 500;
+}
+
+#noti {
+	background-color: #ff5b5a;
+	border-radius: 50%;
+	position: relative;
+	top: -13px;
+	right: 6px;
+	font-size: 12px;
+	padding: 0 7px;
+	color: aliceblue;
+}
+
+.x3{
+	background-color: #ebeff2;
+	height: 720px;
+	margin-left: 270px;
+	padding-left: 10px;
+	padding-top: 20px;
+	margin-top: 68px;
+}
+
+.fixing{
+	position: fixed;
+	top: 0;
+	width: 83%;
+	z-index: 100000000000000000000000;
+}
+
+#chartContainer{
+	background-color: white;
+	border-radius: 5px;
 }
